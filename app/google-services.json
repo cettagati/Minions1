@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "99465810984",
+    "firebase_url": "https://minions-movie-project.firebaseio.com",
+    "project_id": "minions-movie-project",
+    "storage_bucket": "minions-movie-project.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99465810984:android:4ee2cb6cfdcc950bc4d11d",
+        "android_client_info": {
+          "package_name": "com.minion.movie"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99465810984-jog1j4a8ul6t1e2ul6k9diqqjcrdfcf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw04iygm79V2K5SR72i6UL7eoXTUBn7cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99465810984-jog1j4a8ul6t1e2ul6k9diqqjcrdfcf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:99465810984:android:87d92856bc31dfb9c4d11d",
+        "android_client_info": {
+          "package_name": "com.teknokrat.mobile2019.ti17a17313026.minions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "99465810984-jog1j4a8ul6t1e2ul6k9diqqjcrdfcf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBw04iygm79V2K5SR72i6UL7eoXTUBn7cA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "99465810984-jog1j4a8ul6t1e2ul6k9diqqjcrdfcf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

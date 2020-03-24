@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/sv_tvshows"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <ImageView
+            android:id="@+id/svdetail_photo"
+            android:layout_width="171dp"
+            android:layout_height="250dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_desc"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/svshow_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:ellipsize="end"
+            android:text="@string/sv_name"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/svdetail_photo"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/svshow_release"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/svshow_detail"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:ellipsize="end"
+            android:text="@string/sv_release"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/svdetail_photo"
+            app:layout_constraintTop_toBottomOf="@+id/svshow_detail" />
+
+        <TextView
+            android:id="@+id/svshow_genretext"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/svshow_release"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:ellipsize="end"
+            android:text="@string/sv_genre_text"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/svdetail_photo"
+            app:layout_constraintTop_toBottomOf="@+id/svshow_release" />
+
+        <TextView
+            android:id="@+id/svshow_genre"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:layout_toEndOf="@+id/svdetail_photo"
+            android:ellipsize="end"
+            android:text="@string/sv_genre"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/svdetail_photo"
+            app:layout_constraintTop_toBottomOf="@+id/svshow_genretext" />
+
+        <TextView
+            android:id="@+id/svshow_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:ellipsize="end"
+            android:text="@string/sv_desc"
+            android:textSize="18sp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/svdetail_photo" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
